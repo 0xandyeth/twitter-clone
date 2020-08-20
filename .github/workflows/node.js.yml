@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build
-         run: npm run build
+         run: npm build
       - name: Archive Production Artifact
          uses: actions/upload-artifact@master
          with:
@@ -36,8 +36,8 @@ jobs:
          uses: actions/download-artifact@master
          with:
           name: build
-        -name: Deploy to Firebase
-          uses: w9jds/firebase-ation@master
+      - name: Deploy to Firebase
+          uses: w9jds/firebase-action@master
           with:
             args: deploy --only hosting
           env:
