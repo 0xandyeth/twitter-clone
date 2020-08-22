@@ -1,0 +1,35 @@
+.post{
+    padding: 10px 10px;
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.post_content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.post_content_info{
+    display: flex;
+    align-items: center;
+  
+}
+
+ .post_content_info > span{
+     font-size: 16px;
+     color: whitesmoke;
+ }
+
+ .post_content_title > p{
+     color: whitesmoke;
+ }
+
+ .post_content_image_x{
+     border-radius: 30px;
+     max-width: 600px;
+ }
+ .post_content_footer{
+     display: flex;
+     padding: 10px 20px 10px 20px;
+     justify-content: space-between;
+     align-items: center;
+ }

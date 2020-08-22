@@ -3,7 +3,7 @@ import './widget.css'
 const Widget = () => {
   return (
     <div className="widget">
-    
+       
     </div>
   )
 }
